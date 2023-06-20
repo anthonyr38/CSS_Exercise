@@ -2,6 +2,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css">
     <title>CSS Intro</title>
     <!-- Exercise 1: Add a link element with a href attribute that links your external css file to this document  -->
   </head>
@@ -10,14 +11,14 @@
     <header>
       <nav>
         <ul>
-          <li>
-            <a href="/">Home</a>
+          <li class="d-line">
+            <a href="/" class="nav-link">Home</a>
           </li>
-          <li>
-            <a href="/about">About</a>
+          <li class="d-line">
+            <a href="/about" class="nav-link">About</a>
           </li>
-          <li>
-            <a href="/projects">Projects</a>
+          <li class="d-line">
+            <a href="/projects" class="nav-link">Projects</a>
           </li>
         </ul>
       </nav>
@@ -25,8 +26,8 @@
 
     <main>
       <section>
-        <h1>Main Heading</h1>
-        <img src="./images/example.png" alt="Author Headshot" />
+        <h1 id="title">Main Heading</h1>
+        <img src="./images/example.png" alt="Author Headshot" id="avatar" />
         <p>Author.. Bio...</p>
       </section>
       <article>
@@ -48,11 +49,11 @@
     <footer>
       <nav>
         <ul>
-          <li>
-            <a href="/privacy">Privacy Policy</a>
+          <li class="d-line">
+            <a href="/privacy" class="nav-link">Privacy Policy</a>
           </li>
-          <li>
-            <a href="/terms">Terms and Conditions</a>
+          <li class="d-line">
+            <a href="/terms" class="nav-link">Terms and Conditions</a>
           </li>
         </ul>
       </nav>
